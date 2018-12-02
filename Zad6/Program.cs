@@ -42,7 +42,7 @@ namespace Zad6
             
               for (int i = 0; i < arr.Length; i++)
               {
-                Console.Write(" Въведете среднодневната темпертура по дни в Келвини: ");
+                Console.Write(" Въведете средната темперaтура в Келвини за ден ({0}): ",i+1);
                 double kt = double.Parse(Console.ReadLine());
                 
                   if (kt >= 223 && kt <= 323)

@@ -33,7 +33,7 @@ namespace Zad5
             double Zac = 0;
 
             double Xdet = (Yab * Zac) - (Zab * Yac);
-            double Ydet = (Xab * Zac) - (Zab * Xac);
+            double Ydet = (Zab * Xac) - (Xab * Zac);
             double Zdet = (Xab * Yac) - (Yab * Xac);
 
             double ABxAC = Math.Sqrt(Math.Pow(Xdet,2) + Math.Pow(Ydet, 2) + Math.Pow(Zdet, 2));
