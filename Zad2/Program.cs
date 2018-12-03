@@ -32,15 +32,15 @@ namespace Zad2
             Console.WriteLine("  {0}х + {1}y = {2}",a,b,c);
             Console.WriteLine("  {0}х + {1}y = {2}",d,e,f);
 
-            int det = ((a * e) - (d * b));
-            int d1 = ((c*e)-(f*b));
-            int d2 = ((a * f) - (d * c));
+            double det = ((a * e) - (d * b));
+            double d1 = ((c*e)-(f*b));
+            double d2 = ((a * f) - (d * c));
 
-            int x = d1 / det;
-            int y = d2 / det;
+            double x = d1 / det;
+            double y = d2 / det;
 
-            Console.WriteLine("  x = {0}",x);
-            Console.WriteLine("  y = {0}",y);
+            Console.WriteLine(" - x = {0}",x);
+            Console.WriteLine(" - y = {0}",y);
         }
     }
 }

@@ -9,12 +9,12 @@ namespace Zad4
     {
         static void Main()
         {
-            double s = 1.0 / 2;
-              for(int i=3; i <= 50; i++)
+            double s = 0;
+              for(int i=2; i <= 50; i++)
               {
                 s += (1.0 / i);
               }
-            Console.WriteLine(" Сбора на дробите е: {0}", s);
+            Console.WriteLine(" Сбора на дробите (1/2 - 1/50) е: {0}", s);
         }
     }
 }
